@@ -7,7 +7,6 @@ type Props = {
 };
 
 const CORRECT_HASH = import.meta.env.VITE_PASSWORD;
-console.log('correct',CORRECT_HASH)
 // const CORRECT_HASH = "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"; // Hash for "password"
 
 const hashPassword = async (password: string) => {
@@ -67,7 +66,6 @@ const EntryForm = ({ onSuccess }: Props) => {
     }
 
     const hashedInput = await hashPassword(password);
-    console.log(await hashPassword('password'));
 
     if (hashedInput === CORRECT_HASH) {
       onSuccess();
