@@ -4,7 +4,8 @@
   align-items: center;
   overflow-x: hidden;
   padding: 10px 0;
-  height: 100vh;
+  padding-top: env(safe-area-inset-top);
+  min-height: 100dvh;
   background-size: cover;
   position: relative;
 }

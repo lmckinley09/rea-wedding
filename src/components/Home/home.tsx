@@ -9,7 +9,7 @@ const AnchorLink = (AnchorLinkDefault as any)?.default ?? AnchorLinkDefault;
 const Home = ({ setSelectedPage }: PageProps) => {
   return (
     <section id="home" className="home-section">
-      <img src={cherub} className="cherub-right" alt="cherub" />
+      <img src={cherub} className="cherub-right" alt="cherub" loading="eager" />
 
       <motion.div
         className="home-container"
