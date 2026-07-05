@@ -24,4 +24,8 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .footer-text {
+  font-size: 0.875rem !important;
+}
 }
