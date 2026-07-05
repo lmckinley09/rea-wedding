@@ -83,8 +83,6 @@
 
 }
 
-
-
 @media (max-width: 768px) {
   .cherub-right {
     max-height: 30vh;
@@ -94,7 +92,7 @@
 @media (max-width: 480px) {
    .cherub-right {
     max-height: 25vh;
-    top: 8rem;
+    top: 6rem;
     right: 2rem;
   }
 }

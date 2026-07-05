@@ -28,7 +28,7 @@ const Home = ({ setSelectedPage }: PageProps) => {
             <h1 className="main-heading">
               Tori <span className="alt-font">& </span>Ciaran
             </h1>
-            <span className="subheading">Sunday 7 September 2025</span>
+            <span className="subheading">Thursday 29 October 2026</span>
           </div>
 
           <motion.div
