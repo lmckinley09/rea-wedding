@@ -1,0 +1,31 @@
+.rsvp-section {
+  position: relative;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 4rem 0;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #f8d8e3;
+}
+
+.rsvp-body {
+  max-width: 832px;
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #f8d8e3;
+  margin: 0 auto;
+}
+
+.rsvp-title {
+  margin-bottom: 0.5rem !important;
+  padding-bottom: 1rem;
+}
+
+.rsvp-footer {
+  position: absolute;
+  bottom: 0;
+  height: 10rem;
+  width: 100vw;
+  background-color: #f8d8e3;
+  z-index: 100;
+}

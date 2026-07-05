@@ -1,0 +1,9 @@
+export { default as Navbar } from "./Navbar/navbar";
+export { default as Home } from "./Home/home";
+export { default as Wedding } from "./Details/details";
+export { default as Story } from "./Story/story";
+export { default as ContactUs } from "./FAQ/faq";
+export { default as Footer } from "./Footer/footer";
+export { default as Registry } from "./Registry/registry";
+export { default as RSVP } from "./RSVP/rsvp";
+export { default as EntryForm } from "./EntryForm/entryForm";
