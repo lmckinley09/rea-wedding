@@ -1,11 +1,14 @@
-import { SelectedPage, type PageProps } from "../../shared/types";
-import { motion } from "framer-motion";
-import "./story.css";
+import { SelectedPage, type PageProps } from '../../shared/types';
+import { motion } from 'framer-motion';
+import './story.css';
 // import couple from "/couple.png";
 
 const Story = ({ setSelectedPage }: PageProps) => {
   return (
-    <section id="ourstory" className="story">
+    <section
+      id="ourstory"
+      className="story"
+    >
       <div className="story-section">
         <motion.div onViewportEnter={() => setSelectedPage(SelectedPage.Story)}>
           <motion.div
@@ -25,9 +28,9 @@ const Story = ({ setSelectedPage }: PageProps) => {
                 {/* <p>The story</p>
                 <p>fill in</p> */}
                 <p>
-                  "Your love and support over the years has truly been
-                  appreciated, and we thank you all for choosing to share this
-                  special day with us. See you in September!" - Tori & Ciaran
+                  "Your love and support over the years has truly been appreciated, and we thank you
+                  all for choosing to share this special day with us. See you in September!" - Tori
+                  & Ciaran
                 </p>
               </div>
               <div className="story-image">

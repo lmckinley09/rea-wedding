@@ -62,7 +62,7 @@
   background-color: #d01a54;
 }
 
-.cherub-right{
+.cherub-right {
   position: absolute;
   height: auto;
   max-height: 40vh;
@@ -82,8 +82,6 @@
     top: 3rem;
     right: 2rem;
   }
-  
-
 }
 
 @media (max-width: 768px) {
@@ -93,7 +91,7 @@
 }
 
 @media (max-width: 480px) {
-   .cherub-right {
+  .cherub-right {
     max-height: 25vh;
     top: 6rem;
     right: 2rem;

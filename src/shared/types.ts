@@ -1,10 +1,10 @@
 export const SelectedPage = {
-  Home: "home",
-  Story: "ourstory",
-  Details: "thedetails",
-  Registry: "registry",
-  Faqs: "faqs",
-  RSVP: "rsvp",
+  Home: 'home',
+  Story: 'ourstory',
+  Details: 'thedetails',
+  Registry: 'registry',
+  Faqs: 'faqs',
+  RSVP: 'rsvp',
 } as const;
 
 export type SelectedPage = (typeof SelectedPage)[keyof typeof SelectedPage];

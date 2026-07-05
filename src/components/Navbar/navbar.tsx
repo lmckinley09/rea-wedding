@@ -1,13 +1,13 @@
-import { useState } from "react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
-import Link from "../Link/link";
-import { type PageProps } from "../../shared/types";
-import useMediaQuery from "../../hooks/useMediaQuery";
-import "./navbar.css";
+import { useState } from 'react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid';
+import Link from '../Link/link';
+import { type PageProps } from '../../shared/types';
+import useMediaQuery from '../../hooks/useMediaQuery';
+import './navbar.css';
 
 const Navbar = ({ selectedPage, setSelectedPage }: PageProps) => {
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 600px)");
+  const isAboveMediumScreens = useMediaQuery('(min-width: 600px)');
 
   const handleSelect = () => {
     setSelectedPage(selectedPage!);
@@ -68,7 +68,7 @@ const Navbar = ({ selectedPage, setSelectedPage }: PageProps) => {
 
       {/* Mobile Menu */}
       {!isAboveMediumScreens && selectedPage && (
-        <div className={`mobile-menu ${isMenuToggled ? "open" : ""}`}>
+        <div className={`mobile-menu ${isMenuToggled ? 'open' : ''}`}>
           <div className="close-button-container">
             <button onClick={() => setIsMenuToggled(false)}>
               <XMarkIcon className="close-icon" />

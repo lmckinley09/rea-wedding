@@ -1,25 +1,31 @@
-import { useEffect } from "react";
-import "./rsvp.css";
-import { motion } from "motion/react";
-import { SelectedPage, type PageProps } from "../../shared/types";
+import { useEffect } from 'react';
+import './rsvp.css';
+import { motion } from 'motion/react';
+import { SelectedPage, type PageProps } from '../../shared/types';
 
 const RSVP = ({ setSelectedPage }: PageProps) => {
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://toriandciaranswedding.rsvpify.com/embed";
+    const script = document.createElement('script');
+    script.src = 'https://toriandciaranswedding.rsvpify.com/embed';
     script.async = true;
-    script.onload = () => console.log("Form script loaded!");
+    script.onload = () => console.log('Form script loaded!');
 
-    document.getElementById("rsvp-form-container")?.appendChild(script);
+    document.getElementById('rsvp-form-container')?.appendChild(script);
 
     return () => {
-      document.getElementById("rsvp-form-container")?.removeChild(script);
+      document.getElementById('rsvp-form-container')?.removeChild(script);
     };
   }, []);
 
   return (
-    <section id="rsvp" className="rsvp-section">
-      <motion.div className="rsvp-body" onViewportEnter={() => setSelectedPage(SelectedPage.RSVP)}>
+    <section
+      id="rsvp"
+      className="rsvp-section"
+    >
+      <motion.div
+        className="rsvp-body"
+        onViewportEnter={() => setSelectedPage(SelectedPage.RSVP)}
+      >
         <motion.div
           initial="hidden"
           whileInView="visible"

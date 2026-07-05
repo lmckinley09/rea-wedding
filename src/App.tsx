@@ -7,20 +7,18 @@ import {
   // Registry,
   RSVP,
   EntryForm,
-} from "./components";
-import { useState } from "react";
-import { SelectedPage } from "./shared/types";
-import { motion } from "framer-motion";
+} from './components';
+import { useState } from 'react';
+import { SelectedPage } from './shared/types';
+import { motion } from 'framer-motion';
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState<SelectedPage>(
-    SelectedPage.Home,
-  );
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const handleSuccessfulAuth = () => {
     // Scroll to top for most browsers
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
     // Fallback for mobile browsers
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;

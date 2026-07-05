@@ -1,15 +1,23 @@
-import { type PageProps, SelectedPage } from "../../shared/types";
-import { motion } from "framer-motion";
-import "./home.css";
-import cherub from "/cherub.png";
-import AnchorLinkDefault from "react-anchor-link-smooth-scroll";
+import { type PageProps, SelectedPage } from '../../shared/types';
+import { motion } from 'framer-motion';
+import './home.css';
+import cherub from '/cherub.png';
+import AnchorLinkDefault from 'react-anchor-link-smooth-scroll';
 
 const AnchorLink = (AnchorLinkDefault as any)?.default ?? AnchorLinkDefault;
 
 const Home = ({ setSelectedPage }: PageProps) => {
   return (
-    <section id="home" className="home-section">
-      <img src={cherub} className="cherub-right" alt="cherub" loading="eager" />
+    <section
+      id="home"
+      className="home-section"
+    >
+      <img
+        src={cherub}
+        className="cherub-right"
+        alt="cherub"
+        loading="eager"
+      />
 
       <motion.div
         className="home-container"
@@ -42,7 +50,10 @@ const Home = ({ setSelectedPage }: PageProps) => {
               visible: { opacity: 1, x: 0 },
             }}
           >
-            <AnchorLink className="rsvp-button" href={`#rsvp`}>
+            <AnchorLink
+              className="rsvp-button"
+              href={`#rsvp`}
+            >
               RSVP
             </AnchorLink>
           </motion.div>

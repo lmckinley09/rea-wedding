@@ -1,12 +1,8 @@
-import { motion } from "framer-motion";
-import { type PageProps, SelectedPage } from "../../shared/types";
-import {
-  ChevronDownIcon,
-  ChevronUpIcon,
-  QuestionMarkCircleIcon,
-} from "@heroicons/react/24/solid";
-import "./faq.css";
-import { useState } from "react";
+import { motion } from 'framer-motion';
+import { type PageProps, SelectedPage } from '../../shared/types';
+import { ChevronDownIcon, ChevronUpIcon, QuestionMarkCircleIcon } from '@heroicons/react/24/solid';
+import './faq.css';
+import { useState } from 'react';
 
 // Expandable FAQ item component
 const FaqItem: React.FC<{
@@ -40,7 +36,10 @@ const FaqItem: React.FC<{
 
 const FAQ = ({ setSelectedPage }: PageProps) => {
   return (
-    <section id="faqs" className="faq-section">
+    <section
+      id="faqs"
+      className="faq-section"
+    >
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Faqs)}
         className="faq-container"
@@ -64,7 +63,7 @@ const FAQ = ({ setSelectedPage }: PageProps) => {
 
         <div className="faq-content">
           <FaqItem question="Is there parking available?">
-            Yes, there is free parking available at the{" "}
+            Yes, there is free parking available at the{' '}
             <a
               className="faq-link"
               href="https://maps.app.goo.gl/2bvcAphc29PNWA8S7"
@@ -80,15 +79,17 @@ const FAQ = ({ setSelectedPage }: PageProps) => {
             Our wedding is semi-formal, no need for a tuxedo or ballgown.
           </FaqItem>
           <FaqItem question="Can I bring a plus one?">
-            Unfortunately no, please do not arrive with someone who was not
-            included on your invitation. There will not be a seat or food
-            available for them.
+            Unfortunately no, please do not arrive with someone who was not included on your
+            invitation. There will not be a seat or food available for them.
           </FaqItem>
           <FaqItem question="Can I update my RSVP?">
-            Yes, you can update your RSVP at any time until the 1st August. We
-            understand that plans can change, so please let us know if you need
-            to make any adjustments after this date. You can also contact us at{" "}
-            <a href="mailto:Torimckinley@hotmail.co.uk" className="email-link">
+            Yes, you can update your RSVP at any time until the 1st August. We understand that plans
+            can change, so please let us know if you need to make any adjustments after this date.
+            You can also contact us at{' '}
+            <a
+              href="mailto:Torimckinley@hotmail.co.uk"
+              className="email-link"
+            >
               Torimckinley@hotmail.co.uk
             </a>
             .
