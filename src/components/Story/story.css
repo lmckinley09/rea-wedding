@@ -10,6 +10,12 @@
   overflow-x: hidden;
 }
 
+@media (max-width: 500px) {
+.story-section  {
+  height: 120dvh;
+  }
+}
+
 .story-content {
   text-align: left;
 }

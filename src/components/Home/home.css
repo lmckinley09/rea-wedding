@@ -10,6 +10,12 @@
   position: relative;
 }
 
+@media (max-width: 500px) {
+  .home-section {
+  height: 120dvh;
+  }
+}
+
 .home-container {
   display: flex;
   justify-content: center;

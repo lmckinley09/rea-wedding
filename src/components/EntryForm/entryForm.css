@@ -4,6 +4,18 @@
   align-items: center;
   padding: 0 2rem;
   height: 100dvh;
+  
+}
+
+@media (min-width: 768px) {
+  .entry-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  height: 120dvh;
+  
+}
 }
 
 .entry-container {

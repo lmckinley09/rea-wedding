@@ -95,6 +95,12 @@
   z-index: 120;
 }
 
+@media (max-width: 500px) {
+ .mobile-menu  {
+  height: 120dvh;
+  }
+}
+
 .close-button-container {
   display: flex;
   justify-content: flex-end;
@@ -132,6 +138,12 @@
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   overflow-y: auto;
+}
+
+@media (max-width: 500px) {
+ .mobile-menu  {
+  height: 120dvh;
+  }
 }
 
 /* Slide in when toggled */
