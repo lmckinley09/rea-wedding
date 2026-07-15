@@ -97,7 +97,7 @@
 
 @media (max-width: 500px) {
  .mobile-menu  {
-  height: 120dvh;
+  height: 200dvh;
   }
 }
 
@@ -142,7 +142,7 @@
 
 @media (max-width: 500px) {
  .mobile-menu  {
-  height: 120dvh;
+  height: 200dvh;
   }
 }
 
