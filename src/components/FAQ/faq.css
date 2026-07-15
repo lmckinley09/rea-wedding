@@ -26,7 +26,7 @@
 }
 
 .faq-description {
-  color: #666;
+  color: black;
   max-width: 700px;
   line-height: 1.5;
 }
@@ -55,7 +55,7 @@
   gap: 0.5rem;
   font-size: 1.25rem;
   font-weight: bold;
-  color: #444;
+  color: black;
 }
 
 .faq-icon {
@@ -84,7 +84,7 @@
 }
 
 .faq-link {
-  color: #d01a54;
+  color: #770202;;
   text-decoration: none;
 }
 
@@ -102,7 +102,7 @@ h3 {
 }
 
 .email-link {
-  color: #d01a54;
+  color: #770202;;
   text-decoration: none;
 }
 
