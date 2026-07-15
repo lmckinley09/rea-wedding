@@ -1,6 +1,10 @@
 .faq-section {
   padding: 4rem 2rem;
-  min-height: 85vh;
+  min-height: 100dvh;
+  background-color: #f8d8e3;
+  background-image: repeating-conic-gradient(#f8d8e3 0% 25%, #ffffff 0% 50%);
+  background-size: 80px 80px;
+  background-position: 0 0;
 }
 
 .faq-container {

@@ -6,6 +6,10 @@
   overflow-x: hidden;
   text-align: center;
   background-color: #f8d8e3;
+  background-image: none !important;
+  /* background-image: repeating-conic-gradient(#f8d8e3 0% 25%, #ffffff 0% 50%); */
+  background-size: 80px 80px;
+  background-position: 0 0;
 }
 
 @media (max-width: 500px) {
