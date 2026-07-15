@@ -83,14 +83,14 @@ const FAQ = ({ setSelectedPage }: PageProps) => {
             invitation. There will not be a seat or food available for them.
           </FaqItem>
           <FaqItem question="Can I update my RSVP?">
-            Yes, you can update your RSVP at any time until the 1st August. We understand that plans
+            Yes, you can update your RSVP at any time until the 20th September. We understand that plans
             can change, so please let us know if you need to make any adjustments after this date.
             You can also contact us at{' '}
             <a
-              href="mailto:Torimckinley@hotmail.co.uk"
+              href="mailto:vrea624@gmail.com"
               className="email-link"
             >
-              Torimckinley@hotmail.co.uk
+              vrea624@gmail.com
             </a>
             .
           </FaqItem>

@@ -46,7 +46,9 @@ const Details = ({ setSelectedPage }: PageProps) => {
 
               <p className="details-subheading">Gifts</p>
               <p className="details-detail">
-                We're lucky enough to have everything we need, so your presence is more than enough.
+                We are lucky enough to have everything we need so your presence is more than enough, 
+                but if you insist on getting us a gift a contribution to our honeymoon fund would 
+                help us create memories that will last a lifetime
               </p>
 
               <p className="details-subheading">Evening Guests</p>
