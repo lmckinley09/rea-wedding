@@ -78,7 +78,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; /* Adjust based on your needs */
-  height: 100vh;
+  height: 100dvh;
   pointer-events: none; /* Prevents interaction issues */
   z-index: 1; /* Ensures it sits above the background but below text */
 }

@@ -89,7 +89,7 @@
   left: 0;
   bottom: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: #f8d8e3;
   box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 120;
@@ -126,7 +126,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   background-color: #f8d8e3;
   z-index: 120;
   transform: translateX(-100%);

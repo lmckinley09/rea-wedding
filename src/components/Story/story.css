@@ -4,7 +4,7 @@
 
 .story-section {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 100dvh;
   width: 83.33%;
   padding: 4rem 0;
   overflow-x: hidden;
