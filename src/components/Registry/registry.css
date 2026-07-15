@@ -57,7 +57,7 @@
 .registry-button {
   display: inline-block;
   border-radius: 6px;
-  background-color: #8d0304;
+  background-color: #ff3366;
   color: white;
   padding: 10px 40px;
   font-size: 18px;
@@ -68,7 +68,7 @@
 }
 
 .registry-button:hover {
-  background-color: #770202;;
+  background-color: #d01a54;
   color: white;
 }
 
@@ -93,7 +93,7 @@
 }
 
 button {
-  background-color: #8d0304;
+  background-color: #ff3366;
   color: white;
   border: none;
 }

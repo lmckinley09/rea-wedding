@@ -49,7 +49,7 @@
 }
 
 .rsvp-button {
-  background-color: #8d0304;
+  background-color: #ff3366;
   color: white;
   padding: 0.75rem 1rem;
   font-size: 18px;
@@ -59,7 +59,7 @@
 }
 
 .rsvp-button:hover {
-  background-color: #770202;
+  background-color: #d01a54;
 }
 
 .cherub-right {
